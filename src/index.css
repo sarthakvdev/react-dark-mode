@@ -6,6 +6,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+/* light mode preferences */
 .light-mode {
   background-color: #fff;
   color: #333;
@@ -16,6 +17,7 @@ body {
   transition: background-color 0.25s ease-out;
 }
 
+/* dark mode preferences */
 .dark-mode {
   background-color: #1a1919;
   color: #999;
@@ -47,6 +49,7 @@ h1 {
   margin: 0;
 }
 
+/* Toggle Design */
 .toggle {
   position: relative;
   padding: 0 4px;
@@ -54,6 +57,7 @@ h1 {
   align-items: center;
 }
 
+/* Toggle Background */
 input[type="checkbox"].checkbox {
   width: 40px;
   height: 10px;
@@ -76,6 +80,7 @@ input[type="checkbox"].checkbox:focus-visible {
   outline: solid 2px white;
 }
 
+/* Toggle Circle button */
 input[type="checkbox"].checkbox + label {
   display: inline-block;
   width: 18px;
@@ -87,7 +92,7 @@ input[type="checkbox"].checkbox + label {
   left: 2px;
   background: #fff;
   opacity: 0.9;
-  background-color: rgb(157, 227, 255);
+  background-color: rgb(170, 230, 253);
 }
 
 .toggle-container {

@@ -37,8 +37,11 @@ function App() {
   return (
     <div className={darkMode ? "dark-mode" : "light-mode"}>
       <nav>
+
         <div className="toggle-container">
+          
           <span style={{color: !darkMode ? "yellow" : "grey"}}>☀</span>
+          
           <span className="toggle">
             <input 
                 checked={darkMode} 
@@ -46,10 +49,12 @@ function App() {
                 type="checkbox"
                 className="checkbox"
                 id="checkbox" />
-              <label htmlFor="checkbox" />
-            </span>
-            <span style={{color: !darkMode ? "grey" : "blue"}}>☾</span>
+            <label htmlFor="checkbox" />
+          </span>
+
+          <span style={{color: !darkMode ? "grey" : "blue"}}>☾</span>
         </div>
+
       </nav>
       <main>
         <h1>{darkMode ? "Dark Mode" : "Light Mode"}</h1>
